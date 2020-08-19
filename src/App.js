@@ -9,12 +9,12 @@ import footerLogo from "../src/assets/images/reckonsys_logo_small.svg";
 // Any routes that start with 'dynamic' will be treated as non-static routes
 // addPrefetchExcludes(["dynamic"]);
 
-const NavLink = props => (
+const NavLink = (props) => (
   <Link
     {...props}
     getProps={({ isCurrent }) => {
       return {
-        className: isCurrent ? "active" : ""
+        className: isCurrent ? "active" : "",
       };
     }}
   />
@@ -75,7 +75,7 @@ function App() {
           </div>
         </div>
       </header>
-      <div className="content">
+      <div className="content" style={{ minHeight: "100vh" }}>
         <React.Suspense fallback={<em></em>}>
           <Router>
             <Routes path="*" />
@@ -90,7 +90,9 @@ function App() {
                 Have an great idea & <br /> want it to come alive
               </p>
             </div>
-            <button className="btn btn--small">Lets Talk</button>
+            <Link to="/contact-us">
+              <button className="btn btn--small">Lets Talk</button>
+            </Link>
           </div>
         </div>
         <div className="footer-main">
@@ -99,10 +101,12 @@ function App() {
               <a href="">
                 <img src={footerLogo} alt="" />
               </a>
-              <a href="">Contact Us</a>
-              <a href="">Who we are</a>
-              <a href="">Careers</a>
-              <a href="">Careers</a>
+              <NavLink to="/who-we-are">Who we are</NavLink>
+              <NavLink to="/what-we-do">What we do</NavLink>
+              <NavLink to="/our-works">Our Works</NavLink>
+              <NavLink to="/careers">Careers</NavLink>
+              <NavLink to="/blog">Blogs</NavLink>
+              <NavLink to="/contact-us">Contact Us</NavLink>
             </div>
             <div className="social-links d-flex-v-center ml-auto">
               <a href="">

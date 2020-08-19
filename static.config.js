@@ -1,5 +1,7 @@
 import path from "path";
 import projects from "./src/data/projects.json";
+import testimonials from "./src/data/testimonials.json";
+import jobs from "./src/data/jobs.json";
 
 export default {
   getRoutes: async () => {
@@ -9,32 +11,39 @@ export default {
       {
         path: "/",
         getData: () => ({
-          projects
-        })
+          projects,
+          testimonials,
+        }),
+      },
+      {
+        path: "/careers",
+        getData: () => ({
+          jobs,
+        }),
       },
       {
         path: "/our-works",
         getData: () => ({
-          works
+          projects,
         }),
-        children: works.map(work => ({
-          path: `/${work.slug}`,
+        children: projects.map((project) => ({
+          path: `/${project.slug}`,
           template: "src/containers/Work",
           getData: () => ({
-            work
-          })
-        }))
-      }
+            project,
+          }),
+        })),
+      },
     ];
   },
   plugins: [
     [
       require.resolve("react-static-plugin-source-filesystem"),
       {
-        location: path.resolve("./src/pages")
-      }
+        location: path.resolve("./src/pages"),
+      },
     ],
     require.resolve("react-static-plugin-reach-router"),
-    require.resolve("react-static-plugin-sitemap")
-  ]
+    require.resolve("react-static-plugin-sitemap"),
+  ],
 };

@@ -9,43 +9,35 @@ import bigga from "../assets/images/home/bigga.png";
 import figma from "../assets/images/home/figma.png";
 import author from "../assets/images/home/testimonial-author.jpg";
 
-import staticDatas from "../static/static-datas";
-
 export default () => {
-  const projects = useRouteData();
-  debugger;
+  const { projects } = useRouteData();
+  const { testimonials } = useRouteData();
   const testimonialsRef = useRef(null);
   let [activeProject, setActiveProject] = useState(0);
   let [activeTestimonial, setActiveTestimonial] = useState(0);
   let [testimonialTranslateValue, setTestimonialTranslateValue] = useState(0);
 
-  const projectImage = project => {
+  const projectImage = (project) => {
     if (project == "goldensherpa") return goldensherpa;
     if (project == "flipnook") return flipnook;
   };
 
-  const projectCarouselHandler = value => {
+  const projectCarouselHandler = (value) => {
     if (value == 1) {
       setActiveProject(
-        activeProject < staticDatas.projectCarouselData.length - 1
-          ? activeProject + 1
-          : 0
+        activeProject < projects.length - 1 ? activeProject + 1 : 0
       );
     } else {
       setActiveProject(
-        activeProject >= 1
-          ? activeProject - 1
-          : staticDatas.projectCarouselData.length - 1
+        activeProject >= 1 ? activeProject - 1 : projects.length - 1
       );
     }
   };
 
-  const testimonialCarouselHandler = value => {
+  const testimonialCarouselHandler = (value) => {
     if (value == 1) {
       activeTestimonial =
-        activeTestimonial < staticDatas.testimonials.length - 1
-          ? activeTestimonial + 1
-          : 0;
+        activeTestimonial < testimonials.length - 1 ? activeTestimonial + 1 : 0;
       setActiveTestimonial(activeTestimonial);
       if (window.innerWidth < 1000) {
         setTestimonialTranslateValue(
@@ -58,7 +50,7 @@ export default () => {
       activeTestimonial =
         activeTestimonial >= 1
           ? activeTestimonial - 1
-          : staticDatas.testimonials.length - 1;
+          : testimonials.length - 1;
       setActiveTestimonial(activeTestimonial);
       if (window.innerWidth < 1000) {
         setTestimonialTranslateValue(
@@ -286,12 +278,14 @@ export default () => {
         </div>
       </section>
       <section className="some-of-our-works">
-        {staticDatas.projectCarouselData.map((project, index) => {
+        {projects.map((project, index) => {
           return index == activeProject ? (
             <div className="work-brief" key={index}>
-              <img src={projectImage(project.name)} alt="" />
+              <img src={projectImage(project.image)} alt="" />
               <div className="work-description">
-                <h2 className="title m-b-30">{project.title}</h2>
+                <h2 className="title m-b-30">
+                  We have worked on Some Game changing platforms
+                </h2>
                 <div className="content-holder">
                   <h6 className="content-title m-b-20">{project.type}</h6>
                   <p className="content-description m-b-35">
@@ -330,14 +324,15 @@ export default () => {
             We have worked with great clients whos product are a combined vision
           </h2>
           <div className="client-list-wrap d-flex-v-center">
-            {staticDatas.projectNames.map((project, idx) => {
+            {projects.map((project, idx) => {
+              console.log(project);
               return (
                 <div
                   className="clients"
                   key={idx}
-                  style={{ background: project.color }}
+                  style={{ background: project.tileBackgroundColor }}
                 >
-                  {project.name}
+                  {project.title}
                 </div>
               );
             })}
@@ -350,7 +345,7 @@ export default () => {
           className="testimonials-wrap d-flex-v-center"
           style={{ transform: `translateX(${testimonialTranslateValue}px)` }}
         >
-          {staticDatas.testimonials.map((testimonial, index) => {
+          {testimonials.map((testimonial, index) => {
             return (
               <div
                 key={index}

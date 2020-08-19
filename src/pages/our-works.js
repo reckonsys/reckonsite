@@ -8,46 +8,52 @@ import vndly from "../assets/images/our-works/vndly.png";
 import inappbi from "../assets/images/our-works/inappbi.png";
 import smartPort from "../assets/images/our-works/smart-port.svg";
 
-import staticDatas from "../static/static-datas";
+import { useRouteData } from "react-static";
+import { Link } from "components/Router";
 
-const imageQuery = project => {
-  if (project === "goldenSherpa") return goldenSherpa;
+const imageQuery = (project) => {
+  if (project === "goldensherpa") return goldenSherpa;
   if (project === "receipe") return receipe;
   if (project === "kredily") return kredily;
-  if (project === "flipNook") return flipNook;
+  if (project === "flipnook") return flipNook;
   if (project === "vndly") return vndly;
   if (project === "inappbi") return inappbi;
   if (project === "smartPort") return smartPort;
 };
 
-export default () => (
-  <div>
-    <section className="hero-section">
-      <div className="container">
-        <h1 className="title">Some of our Works</h1>
-        <div className="our-works-wrap m-t-65">
-          <div className="row">
-            {staticDatas.projectShortInfo.map((project, idx) => {
-              return (
-                <div className="col-6" key={idx}>
-                  <div className="work-item">
-                    <div
-                      className="img-holder"
-                      style={{ background: project.color }}
-                    >
-                      <img src={imageQuery(project.image)} alt="" />
-                    </div>
-                    <div className="work-desc">
-                      <p>{project.type}</p>
-                      <h6>{project.name}</h6>
-                    </div>
+export default () => {
+  const { projects } = useRouteData();
+  return (
+    <div>
+      <section className="hero-section">
+        <div className="container">
+          <h1 className="title">Some of our Works</h1>
+          <div className="our-works-wrap m-t-65">
+            <div className="row">
+              {projects.map((project, idx) => {
+                return (
+                  <div className="col-6" key={idx}>
+                    <Link to={`/our-works/${project.slug}/`}>
+                      <div className="work-item">
+                        <div
+                          className="img-holder"
+                          style={{ background: project.cardBackgroundColor }}
+                        >
+                          <img src={imageQuery(project.image)} alt="" />
+                        </div>
+                        <div className="work-desc">
+                          <p>{project.type}</p>
+                          <h6>{project.title}</h6>
+                        </div>
+                      </div>
+                    </Link>
                   </div>
-                </div>
-              );
-            })}
+                );
+              })}
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-  </div>
-);
+      </section>
+    </div>
+  );
+};

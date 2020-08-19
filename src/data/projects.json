@@ -1,12 +1,65 @@
 [
-    { "name": "Vndly", "color": "#f84565" },
-    { "name": "flipNook", "color": "#edc96e" },
-    { "name": "Edvay", "color": "#58c376" },
-    { "name": "enquirybot", "color": "#ed6cca" },
-    { "name": "kredily", "color": "#3b9edb" },
-    { "name": "Transimple", "color": "#71c1e3" },
-    { "name": "Goldensherpa", "color": "#84d47d" },
-    { "name": "Vigna", "color": "#bc3651" },
-    { "name": "IT people", "color": "#72e3dd" },
-    { "name": "Moonllight", "color": "#edc96es" }
+  {
+    "title": "Golden Sherpa",
+    "type": "Eldercare Management",
+    "image": "goldensherpa",
+    "cardBackgroundColor": "#6c63ff",
+    "tileBackgroundColor": "#f84565",
+    "slug": "golden-sherpa",
+    "description": "Reckonsys collaborated with the client to develop a web-based SaaS solution that enabled elderly citizens and their families to search for communities online and schedule visits matching their needs"
+  },
+  {
+    "title": "Receipe",
+    "type": "Cooking Library",
+    "image": "receipe",
+    "cardBackgroundColor": "#FF825A",
+    "tileBackgroundColor": "#edc96e",
+    "slug": "receipe",
+    "description": "Reckonsys collaborated with the client to develop a web-based SaaS solution that enabled elderly citizens and their families to search for communities online and schedule visits matching their needs"
+  },
+  {
+    "title": "Vndly",
+    "type": "SAAS Platform",
+    "image": "vndly",
+    "cardBackgroundColor": "#2FCBA1",
+    "tileBackgroundColor": "#58c376",
+    "slug": "vndly",
+    "description": "Reckonsys collaborated with the client to develop a web-based SaaS solution that enabled elderly citizens and their families to search for communities online and schedule visits matching their needs"
+  },
+  {
+    "title": "Kredily",
+    "type": "HR Management Solution",
+    "image": "kredily",
+    "cardBackgroundColor": "#273357",
+    "tileBackgroundColor": "#ed6cca",
+    "slug": "goldkredilyenSherpa",
+    "description": "Reckonsys collaborated with the client to develop a web-based SaaS solution that enabled elderly citizens and their families to search for communities online and schedule visits matching their needs"
+  },
+  {
+    "title": "InappBi",
+    "type": "SAAS Platform",
+    "image": "inappbi",
+    "cardBackgroundColor": "#366DFF",
+    "tileBackgroundColor": "#3b9edb",
+    "slug": "inappbi",
+    "description": "Reckonsys collaborated with the client to develop a web-based SaaS solution that enabled elderly citizens and their families to search for communities online and schedule visits matching their needs"
+  },
+  {
+    "title": "Smart Port",
+    "type": "Port Management",
+    "image": "smartPort",
+    "cardBackgroundColor": "#FA5F96",
+    "tileBackgroundColor": "#71c1e3",
+    "slug": "smartPort",
+    "description": "Reckonsys collaborated with the client to develop a web-based SaaS solution that enabled elderly citizens and their families to search for communities online and schedule visits matching their needs"
+  },
+  {
+    "title": "flipNook",
+    "type": "Interior Designing Platform",
+    "image": "flipnook",
+    "cardBackgroundColor": "#FFC75A",
+    "tileBackgroundColor": "#84d47d",
+    "slug": "flipNook",
+    "description": "Reckonsys collaborated with the client to develop a web-based SaaS solution that enabled elderly citizens and their families to search for communities online and schedule visits matching their needs"
+  }
 ]
