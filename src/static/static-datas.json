@@ -1,0 +1,107 @@
+{
+  "projectNames": [
+    { "name": "Vndly", "color": "#f84565" },
+    { "name": "flipNook", "color": "#edc96e" },
+    { "name": "Edvay", "color": "#58c376" },
+    { "name": "enquirybot", "color": "#ed6cca" },
+    { "name": "kredily", "color": "#3b9edb" },
+    { "name": "Transimple", "color": "#71c1e3" },
+    { "name": "Goldensherpa", "color": "#84d47d" },
+    { "name": "Vigna", "color": "#bc3651" },
+    { "name": "IT people", "color": "#72e3dd" },
+    { "name": "Moonllight", "color": "#edc96es" }
+  ],
+  "projectShortInfo": [
+    {
+      "name": "Golden Sherpa",
+      "type": "ELDERCARE MANAGEMENT",
+      "image": "goldenSherpa",
+      "color": "#6c63ff"
+    },
+    {
+      "name": "Receipe",
+      "type": "COOKING LIBRARY",
+      "image": "receipe",
+      "color": "#FF825A"
+    },
+    {
+      "name": "Vndly",
+      "type": "SAAS PLATFORM",
+      "image": "vndly",
+      "color": "#2FCBA1"
+    },
+    {
+      "name": "Kredily",
+      "type": "HR MANAGEMENT SOLUTION",
+      "image": "kredily",
+      "color": "#273357"
+    },
+    {
+      "name": "InappBi",
+      "type": "SAAS PLATFORM",
+      "image": "inappbi",
+      "color": "#366DFF"
+    },
+    {
+      "name": "Smart Port",
+      "type": "PORT MANAGEMENT",
+      "image": "smartPort",
+      "color": "#FA5F96"
+    },
+    {
+      "name": "flipNook",
+      "type": "INTERIOR DESIGNING PLATFORM",
+      "image": "flipNook",
+      "color": "#FFC75A"
+    }
+  ],
+  "jobOpenings": [
+    {
+      "designation": "Senior Python Django Developer",
+      "experience": "3-5 years of experience , Bangalore"
+    },
+    {
+      "designation": "Senior AngularJS/Ionic Developer",
+      "experience": "3-5 years of experience , Bangalore"
+    },
+    {
+      "designation": "Technical Project Manager",
+      "experience": "8-12 years of experience , Bangalore"
+    },
+    {
+      "designation": "Data Scientist",
+      "experience": "2-4 years of experience , Bangalore"
+    }
+  ],
+  "projectCarouselData": [
+    {
+      "title": "We have worked on Some Game changing platforms",
+      "type": "Eldercare Startup",
+      "description": "Reckonsys collaborated with the client to develop a web-based SaaS solution that enabled elderly citizens and their families to search for communities online and schedule visits matching their needs",
+      "name": "goldensherpa"
+    },
+    {
+      "title": "We have worked on Some Game changing platforms",
+      "type": "Interior Designing Platform",
+      "description": "Reckonsys collaborated with the client to develop a web-based SaaS solution that enabled elderly citizens and their families to search for communities online and schedule visits matching their needs",
+      "name": "flipnook"
+    }
+  ],
+  "testimonials": [
+    {
+      "content": "The platform successfully garnered hundreds of thousands of pageviews and thousands of unique visitors after launch. Reckonsys was very good at finding forward-thinking and innovative solutions. Their team excelled at working with first-time entrepreneurs. Project management was effective.",
+      "name": "Jane Cooper",
+      "designation": "Senior Executive"
+    },
+    {
+      "content": "The platform successfully garnered hundreds of thousands of pageviews and thousands of unique visitors after launch. Reckonsys was very good at finding forward-thinking and innovative solutions. Their team excelled at working with first-time entrepreneurs. Project management was effective.",
+      "name": "Jane Cooper",
+      "designation": "Senior Executive"
+    },
+    {
+      "content": "The platform successfully garnered hundreds of thousands of pageviews and thousands of unique visitors after launch. Reckonsys was very good at finding forward-thinking and innovative solutions. Their team excelled at working with first-time entrepreneurs. Project management was effective.",
+      "name": "Jane Cooper",
+      "designation": "Senior Executive"
+    }
+  ]
+}
