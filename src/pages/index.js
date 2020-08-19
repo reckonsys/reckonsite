@@ -1,5 +1,6 @@
 import React, { useState, useRef } from "react";
 import { Link } from "components/Router";
+import { useRouteData } from "react-static";
 
 import heroBg from "../assets/images/home/hero-bg.png";
 import goldensherpa from "../assets/images/home/golden-sherpa-bg.png";
@@ -11,6 +12,8 @@ import author from "../assets/images/home/testimonial-author.jpg";
 import staticDatas from "../static/static-datas";
 
 export default () => {
+  const projects = useRouteData();
+  debugger;
   const testimonialsRef = useRef(null);
   let [activeProject, setActiveProject] = useState(0);
   let [activeTestimonial, setActiveTestimonial] = useState(0);
