@@ -9,6 +9,24 @@
     "description": "Reckonsys collaborated with the client to develop a web-based SaaS solution that enabled elderly citizens and their families to search for communities online and schedule visits matching their needs"
   },
   {
+    "title": "Vndly",
+    "type": "Vendor Management System",
+    "image": "vndly",
+    "cardBackgroundColor": "#2FCBA1",
+    "tileBackgroundColor": "#58c376",
+    "slug": "vndly",
+    "description": "Our focus on applying the right web frameworks, best-fit design methodologies, and 3rd party components helps founders realize their ideas faster to an MVP while ensuring extensibility and longevity for expanding the scope of the product."
+  },
+  {
+    "title": "InappBi",
+    "type": "A NEXT-GEN ANALYTICS PRODUCT",
+    "image": "inappbi",
+    "cardBackgroundColor": "#366DFF",
+    "tileBackgroundColor": "#3b9edb",
+    "slug": "inappbi",
+    "description": "Reckonsys was chosen to transform the product UX not only due its experience in helping product start-ups to realize their vision but also for its approach towards balancing useful and implementable design."
+  },
+  {
     "title": "Receipe",
     "type": "Cooking Library",
     "image": "receipe",
@@ -18,31 +36,13 @@
     "description": "Reckonsys collaborated with the client to develop a web-based SaaS solution that enabled elderly citizens and their families to search for communities online and schedule visits matching their needs"
   },
   {
-    "title": "Vndly",
-    "type": "SAAS Platform",
-    "image": "vndly",
-    "cardBackgroundColor": "#2FCBA1",
-    "tileBackgroundColor": "#58c376",
-    "slug": "vndly",
-    "description": "Reckonsys collaborated with the client to develop a web-based SaaS solution that enabled elderly citizens and their families to search for communities online and schedule visits matching their needs"
-  },
-  {
     "title": "Kredily",
     "type": "HR Management Solution",
     "image": "kredily",
     "cardBackgroundColor": "#273357",
     "tileBackgroundColor": "#ed6cca",
     "slug": "goldkredilyenSherpa",
-    "description": "Reckonsys collaborated with the client to develop a web-based SaaS solution that enabled elderly citizens and their families to search for communities online and schedule visits matching their needs"
-  },
-  {
-    "title": "InappBi",
-    "type": "SAAS Platform",
-    "image": "inappbi",
-    "cardBackgroundColor": "#366DFF",
-    "tileBackgroundColor": "#3b9edb",
-    "slug": "inappbi",
-    "description": "Reckonsys collaborated with the client to develop a web-based SaaS solution that enabled elderly citizens and their families to search for communities online and schedule visits matching their needs"
+    "description": "Reckonsys was chosen to transform the product UX not only due its experience in helping product start-ups to realize their vision but also for its approach towards balancing useful and implementable design."
   },
   {
     "title": "Smart Port",

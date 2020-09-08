@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { Link, Router } from "components/Router";
 import { Root, Routes, addPrefetchExcludes } from "react-static";
 import footerLogo from "../src/assets/images/reckonsys_logo_small.svg";
+import nasscom from "../src/assets/images/nasscom.png";
 
 const NavLink = (props) => (
   <Link
@@ -110,7 +111,10 @@ function App() {
               <NavLink to="/contact-us">Contact Us</NavLink>
             </div>
             <div className="social-links d-flex-v-center ml-auto">
-              <a href="">
+              <a
+                href="https://www.linkedin.com/company/reckonsys/?originalSubdomain=in"
+                target="_blank"
+              >
                 <svg
                   width="32"
                   height="32"
@@ -124,7 +128,7 @@ function App() {
                   />
                 </svg>
               </a>
-              <a href="">
+              <a href="https://www.facebook.com/reckonsys" target="_blank">
                 <svg
                   width="30"
                   height="30"
@@ -138,7 +142,7 @@ function App() {
                   />
                 </svg>
               </a>
-              <a href="">
+              <a href="https://twitter.com/reckonsys" target="_blank">
                 <svg
                   width="32"
                   height="32"
@@ -159,7 +163,8 @@ function App() {
               Copyright © 2020 Reckonsys Tech Labs Private Ltd. All Rights
               Reserved.
             </p>
-            <p className="nasscomm">NASSCOMM</p>
+            {/* <p className="nasscomm">NASSCOMM</p> */}
+            <img src={nasscom} alt="" style={{ width: "120px" }} />
           </div>
         </div>
       </footer>

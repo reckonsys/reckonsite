@@ -8,6 +8,12 @@ import flipnook from "../assets/images/home/flipnook-bg.jpg";
 import bigga from "../assets/images/home/bigga.png";
 import figma from "../assets/images/home/figma.png";
 import author from "../assets/images/home/testimonial-author.jpg";
+import coastal from "../assets/images/our-projects/coastal.png";
+import gowrav from "../assets/images/our-projects/gowrav.png";
+import itpeople from "../assets/images/our-projects/itpeople.png";
+import kredily from "../assets/images/our-projects/kredily.png";
+import movieplus from "../assets/images/our-projects/movieplus.png";
+import textnook from "../assets/images/our-projects/textnook.png";
 
 export default () => {
   useEffect(() => {
@@ -296,9 +302,9 @@ export default () => {
                   <p className="content-description m-b-35">
                     {project.description}
                   </p>
-                  <a href="" className="read-more">
+                  <Link to={`/our-works/${project.slug}`} className="read-more">
                     Read More
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -329,6 +335,14 @@ export default () => {
             We have worked with great clients whos product are a combined vision
           </h2>
           <div className="client-list-wrap d-flex-v-center">
+            <img src={coastal} alt="" className="clients" />
+            <img src={gowrav} alt="" className="clients" />
+            <img src={itpeople} alt="" className="clients" />
+            <img src={kredily} alt="" className="clients" />
+            <img src={movieplus} alt="" className="clients" />
+            <img src={textnook} alt="" className="clients" />
+          </div>
+          {/* <div className="client-list-wrap d-flex-v-center">
             {projects.map((project, idx) => {
               console.log(project);
               return (
@@ -341,7 +355,7 @@ export default () => {
                 </div>
               );
             })}
-          </div>
+          </div> */}
         </div>
       </section>
       <section className="testimonials">
@@ -416,6 +430,7 @@ export default () => {
                     />
                   </svg>
                 </div>
+                <div className="main m-t-20 m-b-20">{testimonial.main}</div>
                 <div className="content m-t-20 m-b-20">
                   {testimonial.content}
                 </div>

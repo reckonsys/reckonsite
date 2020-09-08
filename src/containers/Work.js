@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useRouteData } from "react-static";
 //
 import { Link } from "components/Router";
@@ -7,6 +7,11 @@ import projectImage1 from "../assets/images/our-works-detail/project-image-1.png
 import projectImage2 from "../assets/images/our-works-detail/project-image-2.png";
 
 export default function Work() {
+  useEffect(() => {
+    if (typeof window !== undefined) {
+      window.scrollTo({ behavior: "smooth", top: 0, left: 0 });
+    }
+  }, []);
   const { project } = useRouteData();
   return (
     <section class="our-works-detail">
