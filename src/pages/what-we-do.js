@@ -19,9 +19,10 @@ import dataScience2 from "../assets/images/what-we-do/data-science-2.png";
 
 export default () => {
   useEffect(() => {
-    const { pathname } = location;
-    window.scrollTo({ behavior: "smooth", top: 0, left: 0 });
-  }, [location.pathname]);
+    if (typeof window !== undefined) {
+      window.scrollTo({ behavior: "smooth", top: 0, left: 0 });
+    }
+  }, []);
   return (
     <div>
       <section className="hero-section">

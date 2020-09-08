@@ -18,7 +18,7 @@ const NavLink = (props) => (
 function App() {
   const [isChecked, setIsChecked] = useState(false);
   const clickHandler = () => {
-    if (window.innerWidth < 998) {
+    if (typeof window != undefined && window.innerWidth < 998) {
       setIsChecked(!isChecked);
     }
   };
@@ -60,41 +60,19 @@ function App() {
           </NavLink>
         </div>
         <div className="header-nav">
-          <input type="checkbox" id="mobileToggle" checked={isChecked} />
-          <label
-            className="mobile-toggle"
-            htmlFor="mobileToggle"
-            onClick={() => clickHandler()}
-          >
+          <input type="checkbox" id="mobileToggle" />
+          <label className="mobile-toggle" htmlFor="mobileToggle">
             <span className="mobile-toggle__icon"></span>
             <span className="mobile-toggle__icon"></span>
             <span className="mobile-toggle__icon"></span>
           </label>
-          <div
-            className={
-              window.innerWidth < 998 && isChecked
-                ? "nav-menu open"
-                : "nav-menu"
-            }
-          >
-            <NavLink to="/who-we-are" onClick={() => clickHandler()}>
-              Who we are
-            </NavLink>
-            <NavLink to="/what-we-do" onClick={() => clickHandler()}>
-              What we do
-            </NavLink>
-            <NavLink to="/our-works" onClick={() => clickHandler()}>
-              Our Works
-            </NavLink>
-            <NavLink to="/careers" onClick={() => clickHandler()}>
-              Careers
-            </NavLink>
-            <NavLink to="/blog" onClick={() => clickHandler()}>
-              Blogs
-            </NavLink>
-            <NavLink to="/contact-us" onClick={() => clickHandler()}>
-              Contact Us
-            </NavLink>
+          <div className={isChecked ? "nav-menu open" : "nav-menu"}>
+            <NavLink to="/who-we-are">Who we are</NavLink>
+            <NavLink to="/what-we-do">What we do</NavLink>
+            <NavLink to="/our-works">Our Works</NavLink>
+            <NavLink to="/careers">Careers</NavLink>
+            <NavLink to="/blog">Blogs</NavLink>
+            <NavLink to="/contact-us">Contact Us</NavLink>
           </div>
         </div>
       </header>

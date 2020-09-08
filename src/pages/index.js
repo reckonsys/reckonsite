@@ -11,9 +11,10 @@ import author from "../assets/images/home/testimonial-author.jpg";
 
 export default () => {
   useEffect(() => {
-    const { pathname } = location;
-    window.scrollTo({ behavior: "smooth", top: 0, left: 0 });
-  }, [location.pathname]);
+    if (typeof window !== undefined) {
+      window.scrollTo({ behavior: "smooth", top: 0, left: 0 });
+    }
+  }, []);
   const { projects } = useRouteData();
   const { testimonials } = useRouteData();
   const testimonialsRef = useRef(null);

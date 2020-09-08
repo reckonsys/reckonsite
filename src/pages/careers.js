@@ -11,9 +11,10 @@ import { useRouteData } from "react-static";
 
 export default () => {
   useEffect(() => {
-    const { pathname } = location;
-    window.scrollTo({ behavior: "smooth", top: 0, left: 0 });
-  }, [location.pathname]);
+    if (typeof window !== undefined) {
+      window.scrollTo({ behavior: "smooth", top: 0, left: 0 });
+    }
+  }, []);
   const { jobs } = useRouteData();
   return (
     <div>
