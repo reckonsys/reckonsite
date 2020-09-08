@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import careersBg from "../assets/images/careers/careers-bg.png";
 import leftTop1 from "../assets/images/careers/left-top-1.png";
@@ -10,6 +10,10 @@ import right1 from "../assets/images/careers/right-1.png";
 import { useRouteData } from "react-static";
 
 export default () => {
+  useEffect(() => {
+    const { pathname } = location;
+    window.scrollTo({ behavior: "smooth", top: 0, left: 0 });
+  }, [location.pathname]);
   const { jobs } = useRouteData();
   return (
     <div>

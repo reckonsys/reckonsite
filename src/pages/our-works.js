@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import goldenSherpa from "../assets/images/our-works/goldensherpa.png";
 import receipe from "../assets/images/our-works/receipe.png";
@@ -22,6 +22,10 @@ const imageQuery = (project) => {
 };
 
 export default () => {
+  useEffect(() => {
+    const { pathname } = location;
+    window.scrollTo({ behavior: "smooth", top: 0, left: 0 });
+  }, [location.pathname]);
   const { projects } = useRouteData();
   return (
     <div>

@@ -1,13 +1,8 @@
-import React from "react";
-import { Root, Routes, addPrefetchExcludes } from "react-static";
-//
-import { Link, Router } from "components/Router";
-
 import "./app.css";
+import React, { useState } from "react";
+import { Link, Router } from "components/Router";
+import { Root, Routes, addPrefetchExcludes } from "react-static";
 import footerLogo from "../src/assets/images/reckonsys_logo_small.svg";
-
-// Any routes that start with 'dynamic' will be treated as non-static routes
-// addPrefetchExcludes(["dynamic"]);
 
 const NavLink = (props) => (
   <Link
@@ -21,6 +16,12 @@ const NavLink = (props) => (
 );
 
 function App() {
+  const [isChecked, setIsChecked] = useState(false);
+  const clickHandler = () => {
+    if (window.innerWidth < 998) {
+      setIsChecked(!isChecked);
+    }
+  };
   return (
     <Root>
       <header className="d-flex-space-center header">
@@ -59,19 +60,41 @@ function App() {
           </NavLink>
         </div>
         <div className="header-nav">
-          <input type="checkbox" id="mobileToggle" />
-          <label className="mobile-toggle" htmlFor="mobileToggle">
+          <input type="checkbox" id="mobileToggle" checked={isChecked} />
+          <label
+            className="mobile-toggle"
+            htmlFor="mobileToggle"
+            onClick={() => clickHandler()}
+          >
             <span className="mobile-toggle__icon"></span>
             <span className="mobile-toggle__icon"></span>
             <span className="mobile-toggle__icon"></span>
           </label>
-          <div className="nav-menu">
-            <NavLink to="/who-we-are">Who we are</NavLink>
-            <NavLink to="/what-we-do">What we do</NavLink>
-            <NavLink to="/our-works">Our Works</NavLink>
-            <NavLink to="/careers">Careers</NavLink>
-            <NavLink to="/blog">Blogs</NavLink>
-            <NavLink to="/contact-us">Contact Us</NavLink>
+          <div
+            className={
+              window.innerWidth < 998 && isChecked
+                ? "nav-menu open"
+                : "nav-menu"
+            }
+          >
+            <NavLink to="/who-we-are" onClick={() => clickHandler()}>
+              Who we are
+            </NavLink>
+            <NavLink to="/what-we-do" onClick={() => clickHandler()}>
+              What we do
+            </NavLink>
+            <NavLink to="/our-works" onClick={() => clickHandler()}>
+              Our Works
+            </NavLink>
+            <NavLink to="/careers" onClick={() => clickHandler()}>
+              Careers
+            </NavLink>
+            <NavLink to="/blog" onClick={() => clickHandler()}>
+              Blogs
+            </NavLink>
+            <NavLink to="/contact-us" onClick={() => clickHandler()}>
+              Contact Us
+            </NavLink>
           </div>
         </div>
       </header>
@@ -98,9 +121,9 @@ function App() {
         <div className="footer-main">
           <div className="footer-nav d-flex-v-center m-b-60">
             <div className="footer-nav-left d-flex-v-center">
-              <a href="">
+              <NavLink to="/who-we-are" to="/">
                 <img src={footerLogo} alt="" />
-              </a>
+              </NavLink>
               <NavLink to="/who-we-are">Who we are</NavLink>
               <NavLink to="/what-we-do">What we do</NavLink>
               <NavLink to="/our-works">Our Works</NavLink>
@@ -155,7 +178,7 @@ function App() {
           </div>
           <div className="d-flex-space-center copy-rights-wrap">
             <p className="copyrights">
-              Copyright © 2018 Reckonsys Tech Labs Private Ltd. All Rights
+              Copyright © 2020 Reckonsys Tech Labs Private Ltd. All Rights
               Reserved.
             </p>
             <p className="nasscomm">NASSCOMM</p>

@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { Link } from "components/Router";
 import { useRouteData } from "react-static";
 
@@ -10,6 +10,10 @@ import figma from "../assets/images/home/figma.png";
 import author from "../assets/images/home/testimonial-author.jpg";
 
 export default () => {
+  useEffect(() => {
+    const { pathname } = location;
+    window.scrollTo({ behavior: "smooth", top: 0, left: 0 });
+  }, [location.pathname]);
   const { projects } = useRouteData();
   const { testimonials } = useRouteData();
   const testimonialsRef = useRef(null);
@@ -416,7 +420,8 @@ export default () => {
                 </div>
                 <div className="author d-flex-v-center">
                   <div className="author-image">
-                    <img src={author} alt="" />
+                    {/* <img src={author} alt="" /> */}
+                    {testimonial.name.match(/\b(\w)/g).join("")}
                   </div>
                   <div className="author-info m-l-15">
                     <p className="name">{testimonial.name}</p>
@@ -471,7 +476,7 @@ export default () => {
           </div>
         </div>
       </section>
-      <section className="blogs">
+      {/* <section className="blogs">
         <div className="container">
           <h3 className="title m-b-75">Some of our latest write ups</h3>
           <div className="writeups-wrap d-flex">
@@ -544,7 +549,7 @@ export default () => {
             </svg>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
