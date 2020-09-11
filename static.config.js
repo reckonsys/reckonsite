@@ -2,17 +2,22 @@ import path from "path";
 import projects from "./src/data/projects.json";
 import testimonials from "./src/data/testimonials.json";
 import jobs from "./src/data/jobs.json";
+import team from "./src/data/team.json";
 
 export default {
   getRoutes: async () => {
-    //TEMP
-    const works = [];
     return [
       {
         path: "/",
         getData: () => ({
           projects,
           testimonials,
+        }),
+      },
+      {
+        path: "/who-we-are",
+        getData: () => ({
+          team,
         }),
       },
       {
