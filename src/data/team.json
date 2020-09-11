@@ -1,5 +1,5 @@
-{
-  "col1": [
+[
+  [
     {
       "name": "Akash Kumar Agarwal",
       "caption": "Fast paced - often referred to Usain Bolt of Coding",
@@ -47,9 +47,15 @@
       "caption": "Keep  Refactoring!",
       "linkedin_profile": "https://www.linkedin.com/in/praneethkarnena/",
       "image": "praneeth"
+    },
+    {
+      "name": "Kumar Sundram",
+      "caption": "Software Engineer",
+      "linkedin_link": "https://www.linkedin.com/in/kumar-sundram-533842103/",
+      "image": "kumar"
     }
   ],
-  "col2": [
+  [
     {
       "name": "Kartik S Danidhariya",
       "caption": "Being oneself. Striving to be better.",
@@ -105,7 +111,7 @@
       "image": "piyush"
     }
   ],
-  "col3": [
+  [
     {
       "name": "Sai Krishna Gajula",
       "caption": "Non Insomniac Software Engineer",
@@ -161,7 +167,7 @@
       "image": "sandip"
     }
   ],
-  "col4": [
+  [
     {
       "name": "Mohit Jain",
       "caption": "Coding, Travelling, living by the word \"Carpe Diem\"",
@@ -217,4 +223,4 @@
       "image": "rishad"
     }
   ]
-}
+]

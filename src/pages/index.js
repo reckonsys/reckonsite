@@ -292,7 +292,11 @@ export default () => {
         {projects.map((project, index) => {
           return index == activeProject ? (
             <div className="work-brief" key={index}>
-              <img src={projectImage(project.image)} alt="" />
+              {/* <img src={projectImage(project.image)} alt="" /> */}
+              <img
+                src={require(`../assets/images/projects/${project.image}.jpg`)}
+                alt=""
+              />
               <div className="work-description">
                 <h2 className="title m-b-30">
                   We have worked on Some Game changing platforms
