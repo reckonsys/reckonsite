@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import whatWeDoBg from "../assets/images/what-we-do/what-we-do-hero-bg.png";
-import uxDesign from "../assets/images/what-we-do/ui-ux-design.png";
-import mobileApplication from "../assets/images/what-we-do/web-mobile-application.png";
-import webMobile from "../assets/images/what-we-do/web-mobile-2.png";
-import dataScience from "../assets/images/what-we-do/data-science.png";
-import blockChain from "../assets/images/what-we-do/block-chain.png";
-import iot from "../assets/images/what-we-do/iot.png";
+import uxDesign from "../assets/images/what-we-do/ui-ux-design.jpg";
+import mobileApplication from "../assets/images/what-we-do/web-mobile-application.jpg";
+import webMobile from "../assets/images/what-we-do/web-mobile-2.jpg";
+import dataScience from "../assets/images/what-we-do/data-science.jpg";
+import blockChain from "../assets/images/what-we-do/block-chain.jpg";
+import iot from "../assets/images/what-we-do/iot.jpg";
 import appDev1 from "../assets/images/what-we-do/app-dev-1.png";
 import appDev2 from "../assets/images/what-we-do/app-dev-2.png";
 import appDev3 from "../assets/images/what-we-do/app-dev-3.png";
@@ -79,7 +79,7 @@ export default () => {
           <div className="key-expertise">
             <img src={dataScience} alt="" />
             <div className="card">
-              <h4>Data Sciences</h4>
+              <h4>Data Science</h4>
               <p>
                 Develop systems that are intelligent and self-learning through
                 the use of big data and machine learning.

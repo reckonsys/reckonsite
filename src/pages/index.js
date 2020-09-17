@@ -3,17 +3,24 @@ import { Link } from "components/Router";
 import { useRouteData } from "react-static";
 
 import heroBg from "../assets/images/home/hero-bg.png";
-import goldensherpa from "../assets/images/home/golden-sherpa-bg.png";
-import flipnook from "../assets/images/home/flipnook-bg.jpg";
-import bigga from "../assets/images/home/bigga.png";
-import figma from "../assets/images/home/figma.png";
-import author from "../assets/images/home/testimonial-author.jpg";
+// import goldensherpa from "../assets/images/home/golden-sherpa-bg.png";
+// import flipnook from "../assets/images/home/flipnook-bg.jpg";
+// import bigga from "../assets/images/home/bigga.png";
+// import figma from "../assets/images/home/figma.png";
+// import author from "../assets/images/home/testimonial-author.jpg";
 import coastal from "../assets/images/our-projects/coastal.png";
 import gowrav from "../assets/images/our-projects/gowrav.png";
 import itpeople from "../assets/images/our-projects/itpeople.png";
 import kredily from "../assets/images/our-projects/kredily.png";
 import movieplus from "../assets/images/our-projects/movieplus.png";
 import textnook from "../assets/images/our-projects/textnook.png";
+import D8adriven from "../assets/images/our-projects/D8adriven.png";
+import EnquiryBot from "../assets/images/our-projects/EnquiryBot.png";
+import Everyulb from "../assets/images/our-projects/Everyulb.png";
+import flipnook from "../assets/images/our-projects/flipnook.png";
+import goldenSherpaLogo from "../assets/images/our-projects/gs-logo-horizontal-black.svg";
+import IXLabs from "../assets/images/our-projects/IXLabs.png";
+import pathfinder from "../assets/images/our-projects/pathfinder.svg";
 
 export default () => {
   useEffect(() => {
@@ -345,6 +352,13 @@ export default () => {
             <img src={kredily} alt="" className="clients" />
             <img src={movieplus} alt="" className="clients" />
             <img src={textnook} alt="" className="clients" />
+            <img src={D8adriven} alt="" className="clients" />
+            <img src={EnquiryBot} alt="" className="clients" />
+            <img src={Everyulb} alt="" className="clients" />
+            <img src={flipnook} alt="" className="clients" />
+            <img src={pathfinder} alt="" className="clients" />
+            <img src={goldenSherpaLogo} alt="" className="clients" />
+            <img src={IXLabs} alt="" className="clients" />
           </div>
           {/* <div className="client-list-wrap d-flex-v-center">
             {projects.map((project, idx) => {

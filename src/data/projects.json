@@ -4,27 +4,293 @@
     "type": "Eldercare Management",
     "image": "goldensherpa",
     "cardBackgroundColor": "#6c63ff",
-    "tileBackgroundColor": "#f84565",
+    "tileBackgroundColor": "#5A54C3",
     "slug": "golden-sherpa",
-    "description": "Reckonsys collaborated with the client to develop a web-based SaaS solution that enabled elderly citizens and their families to search for communities online and schedule visits matching their needs"
+    "description": "Reckonsys collaborated with the client to develop a web-based SaaS solution that enabled elderly citizens and their families to search for communities online and schedule visits matching their needs",
+    "details": {
+      "shortnote": "Elderly people and their families find it very challenging to select a care provider that best suits their needs due to lack of information. Our client wanted to address this information gap and help eldercare communities and their consumers with stress-free search & selection through a common platform.",
+      "description": "Reckonsys collaborated with the client to develop a web-based SaaS solution that enabled elderly citizens and their families to search for communities online and schedule visits matching their needs",
+      "content": [
+        {
+          "title": "ABOUT THE CLIENT",
+          "subtitle": "A startup focused on connecting eldercare providers, communities, senior citizens and their families for easy and transparent interaction",
+          "points": []
+        },
+        {
+          "title": "NEEDS",
+          "subtitle": "",
+          "points": [
+            {
+              "label": "",
+              "value": "Build a solution to connect communities with senior citizens"
+            },
+            {
+              "label": "",
+              "value": "A technology partner with expertise to build an MVP to showcase the idea"
+            }
+          ]
+        },
+        {
+          "title": "RECKONSYS SERVICES LEVERAGED",
+          "subtitle": "",
+          "points": [
+            {
+              "label": "",
+              "value": "Idea to solution design, <br> Technology selection, <br> UI/UX design, <br> Design & build MVP"
+            }
+          ]
+        },
+        {
+          "title": "KEY SOLUTIONS",
+          "subtitle": "",
+          "points": [
+            {
+              "label": "",
+              "value": "Web-based marketplace for care-giving communities and consumers"
+            },
+            {
+              "label": "",
+              "value": "Multiple search paramenters to find and select suitable caregivers"
+            },
+            {
+              "label": "",
+              "value": "Persona-based evaluation of senior citizens"
+            },
+            {
+              "label": "",
+              "value": "Intelligent scheduling and alert mechanisms"
+            },
+            {
+              "label": "",
+              "value": "Secure online meeting and video chat"
+            }
+          ]
+        },
+        {
+          "title": "BENEFITS TO CONSUMERS AND COMMUNITIES",
+          "subtitle": "",
+          "points": [
+            {
+              "label": "",
+              "value": "Increased visibility of eldercare providers and senior living communities"
+            },
+            {
+              "label": "",
+              "value": "Stress free connect between senior citizens and communities"
+            },
+            {
+              "label": "",
+              "value": "Improved quality of live for senior citizens & their families"
+            }
+          ]
+        },
+        {
+          "title": "GOLDENSHERPA'S RESULTS",
+          "subtitle": "",
+          "points": [
+            {
+              "label": "",
+              "value": "Robust & scalable SaaS MVP for demonstration and usage"
+            },
+            {
+              "label": "",
+              "value": "Secured funding after building the platform within 4 months"
+            },
+            {
+              "label": "",
+              "value": "9 communities featured in 3 months of platform launch"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "title": "Vndly",
     "type": "Vendor Management System",
     "image": "vndly",
     "cardBackgroundColor": "#2FCBA1",
-    "tileBackgroundColor": "#58c376",
+    "tileBackgroundColor": "#2C9880",
     "slug": "vndly",
-    "description": "Our focus on applying the right web frameworks, best-fit design methodologies, and 3rd party components helps founders realize their ideas faster to an MVP while ensuring extensibility and longevity for expanding the scope of the product."
+    "description": "Our focus on applying the right web frameworks, best-fit design methodologies, and 3rd party components helps founders realize their ideas faster to an MVP while ensuring extensibility and longevity for expanding the scope of the product.",
+    "details": {
+      "shortnote": "Our client's vision was to build a next-generation vendor management SaaS platform designed for procurement executives, talent acquisition teams, suppliers and managed service providers (MSPs) to collaborate on the corporation's contingent workforce needs.",
+      "description": "Reckonsys has been an integral part of the client's journey as a technology & development partner from building a talent acquisition solution as an MVP to a comprehensive contingent workforce management solution.",
+      "content": [
+        {
+          "title": "ABOUT THE CLIENT",
+          "subtitle": "A start-up focused on building a platform to transform contractor hiring for enterprises.",
+          "points": []
+        },
+        {
+          "title": "NEEDS",
+          "subtitle": "",
+          "points": [
+            {
+              "label": "",
+              "value": "Translate idea into an MVP"
+            },
+            {
+              "label": "",
+              "value": "Build a demonstratable and scalable product"
+            },
+            {
+              "label": "",
+              "value": "Technology partner with deep expertise"
+            }
+          ]
+        },
+        {
+          "title": "HIGHLIGHTS",
+          "subtitle": "Idea to solution design, Technology selection, UI/UX design, Design & build MVP",
+          "points": [
+            {
+              "label": "Faster MVP Development",
+              "value": "Intelligent translation of founder's ideas into a demonstrable MVP within 4 months"
+            },
+            {
+              "label": "Long-term Collaboration",
+              "value": "Exclusive development partner from ideation to MVP to multiple product versions"
+            },
+            {
+              "label": "Scalable Platform",
+              "value": "Extendable architecture that supported continuous changes to product scope."
+            },
+            {
+              "label": "Flexible Engagement",
+              "value": "Responsive approach and collaborative culture meeting the evolving needs of the start-up"
+            },
+            {
+              "label": "Speed and Cost Optimization",
+              "value": "Leveraged 3rd party components for faster & economical development"
+            },
+            {
+              "label": "Unified solution development",
+              "value": "SaaS platform for talent acquisition, work-force lifecycle management, SOW management, and Reports & Analytics."
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "title": "InappBi",
     "type": "A NEXT-GEN ANALYTICS PRODUCT",
     "image": "inappbi",
     "cardBackgroundColor": "#366DFF",
-    "tileBackgroundColor": "#3b9edb",
+    "tileBackgroundColor": "#382DED",
     "slug": "inappbi",
-    "description": "Reckonsys was chosen to transform the product UX not only due its experience in helping product start-ups to realize their vision but also for its approach towards balancing useful and implementable design."
+    "description": "Reckonsys was chosen to transform the product UX not only due its experience in helping product start-ups to realize their vision but also for its approach towards balancing useful and implementable design.",
+    "details": {
+      "shortnote": "Designing a UX that works for different user profiles from developers to users to power users is critical for an analytics product. It is more critical for the success of the product for our client who offers an affordable reports and analytics platform for enterprise applications. However, the strong focus and skills in technology ensured the right functionality where as the user interaction design was not up to the mark for our client.",
+      "description": "Reckonsys was chosen to transform the product UX not only due its experience in helping product start-ups to realize their vision but also for its approach towards balancing useful and implementable design.",
+      "content": [
+        {
+          "title": "ABOUT THE CLIENT",
+          "subtitle": "A next-gen analytics product start-up based out of the US",
+          "points": [
+            {
+              "label": "",
+              "value": "Product: InAppBI (Data Source Mapper, Query Builder, Data Visualization)"
+            },
+            {
+              "label": "",
+              "value": "Offices: US, India"
+            }
+          ]
+        },
+        {
+          "title": "NEEDS",
+          "subtitle": "",
+          "points": [
+            {
+              "label": "",
+              "value": "UX Design transformation for all functions of the analytics platform"
+            }
+          ]
+        },
+        {
+          "title": "PROBLEMS",
+          "subtitle": "Current UX has a number of problems with navigation and look & feel",
+          "points": [
+            {
+              "label": "",
+              "value": "Lack of clarity while creating queries, reports, and dashboards"
+            },
+            {
+              "label": "",
+              "value": "Longer navigation cycle time with more than required number of steps"
+            },
+            {
+              "label": "",
+              "value": "Inconsistent and not so appealing visual design"
+            }
+          ]
+        },
+        {
+          "title": "OUR SOLUTION APPROACH",
+          "subtitle": "End-to-end UX design lifecycle activities",
+          "points": [
+            {
+              "label": "",
+              "value": "Current UX gap analysis"
+            },
+            {
+              "label": "",
+              "value": "User personas and storyboarding"
+            },
+            {
+              "label": "",
+              "value": "User interaction design and Wireframe production"
+            },
+            {
+              "label": "",
+              "value": "User Interface and Visual design"
+            }
+          ]
+        },
+        {
+          "title": "PRODUCT FUNCTIONS REDESIGNED",
+          "subtitle": "New UX designed for 60+ screens that provide the following capabilities for the users",
+          "points": [
+            {
+              "label": "",
+              "value": "Connect to a range of data sources"
+            },
+            {
+              "label": "",
+              "value": "Query and transform data using SQL and scripting"
+            },
+            {
+              "label": "",
+              "value": "Create dashboards using an array of visualization libraries"
+            }
+          ]
+        },
+        {
+          "title": "BENEFITS",
+          "subtitle": "The transformed UX has helped different personas such as business users, IT developers, and power users across various areas:",
+          "points": [
+            {
+              "label": "",
+              "value": "Intuitive and guided interface for better and faster visualization"
+            },
+            {
+              "label": "",
+              "value": "Implementable UX design for few screens based development constraints"
+            },
+            {
+              "label": "",
+              "value": "Optimized information density resulting in higher clarity for the users"
+            },
+            {
+              "label": "",
+              "value": "Defined and consistent branding including appealing color schemes"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "title": "Receipe",
@@ -33,7 +299,104 @@
     "cardBackgroundColor": "#FF825A",
     "tileBackgroundColor": "#edc96e",
     "slug": "receipe",
-    "description": "Reckonsys collaborated with the client to develop a web-based SaaS solution that enabled elderly citizens and their families to search for communities online and schedule visits matching their needs"
+    "description": "Reckonsys collaborated with the client to develop a web-based SaaS solution that enabled elderly citizens and their families to search for communities online and schedule visits matching their needs",
+    "details": {
+      "shortnote": "Elderly people and their families find it very challenging to select a care provider that best suits their needs due to lack of information. Our client wanted to address this information gap and help eldercare communities and their consumers with stress-free search & selection through a common platform.",
+      "description": "Reckonsys collaborated with the client to develop a web-based SaaS solution that enabled elderly citizens and their families to search for communities online and schedule visits matching their needs",
+      "content": [
+        {
+          "title": "ABOUT THE CLIENT",
+          "subtitle": "A startup focused on connecting eldercare providers, communities, senior citizens and their families for easy and transparent interaction",
+          "points": []
+        },
+        {
+          "title": "NEEDS",
+          "subtitle": "",
+          "points": [
+            {
+              "label": "",
+              "value": "Build a solution to connect communities with senior citizens"
+            },
+            {
+              "label": "",
+              "value": "A technology partner with expertise to build an MVP to showcase the idea"
+            }
+          ]
+        },
+        {
+          "title": "RECKONSYS SERVICES LEVERAGED",
+          "subtitle": "",
+          "points": [
+            {
+              "label": "",
+              "value": "Idea to solution design, <br> Technology selection, <br> UI/UX design, <br> Design & build MVP"
+            }
+          ]
+        },
+        {
+          "title": "KEY SOLUTIONS",
+          "subtitle": "",
+          "points": [
+            {
+              "label": "",
+              "value": "Web-based marketplace for care-giving communities and consumers"
+            },
+            {
+              "label": "",
+              "value": "Multiple search paramenters to find and select suitable caregivers"
+            },
+            {
+              "label": "",
+              "value": "Persona-based evaluation of senior citizens"
+            },
+            {
+              "label": "",
+              "value": "Intelligent scheduling and alert mechanisms"
+            },
+            {
+              "label": "",
+              "value": "Secure online meeting and video chat"
+            }
+          ]
+        },
+        {
+          "title": "BENEFITS TO CONSUMERS AND COMMUNITIES",
+          "subtitle": "",
+          "points": [
+            {
+              "label": "",
+              "value": "Increased visibility of eldercare providers and senior living communities"
+            },
+            {
+              "label": "",
+              "value": "Stress free connect between senior citizens and communities"
+            },
+            {
+              "label": "",
+              "value": "Improved quality of live for senior citizens & their families"
+            }
+          ]
+        },
+        {
+          "title": "GOLDENSHERPA'S RESULTS",
+          "subtitle": "",
+          "points": [
+            {
+              "label": "",
+              "value": "Robust & scalable SaaS MVP for demonstration and usage"
+            },
+            {
+              "label": "",
+              "value": "Secured funding after building the platform within 4 months"
+            },
+            {
+              "label": "",
+              "value": "9 communities featured in 3 months of platform launch"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "title": "Kredily",
@@ -42,7 +405,104 @@
     "cardBackgroundColor": "#273357",
     "tileBackgroundColor": "#ed6cca",
     "slug": "goldkredilyenSherpa",
-    "description": "Reckonsys was chosen to transform the product UX not only due its experience in helping product start-ups to realize their vision but also for its approach towards balancing useful and implementable design."
+    "description": "Reckonsys was chosen to transform the product UX not only due its experience in helping product start-ups to realize their vision but also for its approach towards balancing useful and implementable design.",
+    "details": {
+      "shortnote": "Elderly people and their families find it very challenging to select a care provider that best suits their needs due to lack of information. Our client wanted to address this information gap and help eldercare communities and their consumers with stress-free search & selection through a common platform.",
+      "description": "Reckonsys collaborated with the client to develop a web-based SaaS solution that enabled elderly citizens and their families to search for communities online and schedule visits matching their needs",
+      "content": [
+        {
+          "title": "ABOUT THE CLIENT",
+          "subtitle": "A startup focused on connecting eldercare providers, communities, senior citizens and their families for easy and transparent interaction",
+          "points": []
+        },
+        {
+          "title": "NEEDS",
+          "subtitle": "",
+          "points": [
+            {
+              "label": "",
+              "value": "Build a solution to connect communities with senior citizens"
+            },
+            {
+              "label": "",
+              "value": "A technology partner with expertise to build an MVP to showcase the idea"
+            }
+          ]
+        },
+        {
+          "title": "RECKONSYS SERVICES LEVERAGED",
+          "subtitle": "",
+          "points": [
+            {
+              "label": "",
+              "value": "Idea to solution design, <br> Technology selection, <br> UI/UX design, <br> Design & build MVP"
+            }
+          ]
+        },
+        {
+          "title": "KEY SOLUTIONS",
+          "subtitle": "",
+          "points": [
+            {
+              "label": "",
+              "value": "Web-based marketplace for care-giving communities and consumers"
+            },
+            {
+              "label": "",
+              "value": "Multiple search paramenters to find and select suitable caregivers"
+            },
+            {
+              "label": "",
+              "value": "Persona-based evaluation of senior citizens"
+            },
+            {
+              "label": "",
+              "value": "Intelligent scheduling and alert mechanisms"
+            },
+            {
+              "label": "",
+              "value": "Secure online meeting and video chat"
+            }
+          ]
+        },
+        {
+          "title": "BENEFITS TO CONSUMERS AND COMMUNITIES",
+          "subtitle": "",
+          "points": [
+            {
+              "label": "",
+              "value": "Increased visibility of eldercare providers and senior living communities"
+            },
+            {
+              "label": "",
+              "value": "Stress free connect between senior citizens and communities"
+            },
+            {
+              "label": "",
+              "value": "Improved quality of live for senior citizens & their families"
+            }
+          ]
+        },
+        {
+          "title": "GOLDENSHERPA'S RESULTS",
+          "subtitle": "",
+          "points": [
+            {
+              "label": "",
+              "value": "Robust & scalable SaaS MVP for demonstration and usage"
+            },
+            {
+              "label": "",
+              "value": "Secured funding after building the platform within 4 months"
+            },
+            {
+              "label": "",
+              "value": "9 communities featured in 3 months of platform launch"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "title": "Smart Port",
@@ -51,7 +511,104 @@
     "cardBackgroundColor": "#FA5F96",
     "tileBackgroundColor": "#71c1e3",
     "slug": "smartPort",
-    "description": "Reckonsys collaborated with the client to develop a web-based SaaS solution that enabled elderly citizens and their families to search for communities online and schedule visits matching their needs"
+    "description": "Reckonsys collaborated with the client to develop a web-based SaaS solution that enabled elderly citizens and their families to search for communities online and schedule visits matching their needs",
+    "details": {
+      "shortnote": "Elderly people and their families find it very challenging to select a care provider that best suits their needs due to lack of information. Our client wanted to address this information gap and help eldercare communities and their consumers with stress-free search & selection through a common platform.",
+      "description": "Reckonsys collaborated with the client to develop a web-based SaaS solution that enabled elderly citizens and their families to search for communities online and schedule visits matching their needs",
+      "content": [
+        {
+          "title": "ABOUT THE CLIENT",
+          "subtitle": "A startup focused on connecting eldercare providers, communities, senior citizens and their families for easy and transparent interaction",
+          "points": []
+        },
+        {
+          "title": "NEEDS",
+          "subtitle": "",
+          "points": [
+            {
+              "label": "",
+              "value": "Build a solution to connect communities with senior citizens"
+            },
+            {
+              "label": "",
+              "value": "A technology partner with expertise to build an MVP to showcase the idea"
+            }
+          ]
+        },
+        {
+          "title": "RECKONSYS SERVICES LEVERAGED",
+          "subtitle": "",
+          "points": [
+            {
+              "label": "",
+              "value": "Idea to solution design, <br> Technology selection, <br> UI/UX design, <br> Design & build MVP"
+            }
+          ]
+        },
+        {
+          "title": "KEY SOLUTIONS",
+          "subtitle": "",
+          "points": [
+            {
+              "label": "",
+              "value": "Web-based marketplace for care-giving communities and consumers"
+            },
+            {
+              "label": "",
+              "value": "Multiple search paramenters to find and select suitable caregivers"
+            },
+            {
+              "label": "",
+              "value": "Persona-based evaluation of senior citizens"
+            },
+            {
+              "label": "",
+              "value": "Intelligent scheduling and alert mechanisms"
+            },
+            {
+              "label": "",
+              "value": "Secure online meeting and video chat"
+            }
+          ]
+        },
+        {
+          "title": "BENEFITS TO CONSUMERS AND COMMUNITIES",
+          "subtitle": "",
+          "points": [
+            {
+              "label": "",
+              "value": "Increased visibility of eldercare providers and senior living communities"
+            },
+            {
+              "label": "",
+              "value": "Stress free connect between senior citizens and communities"
+            },
+            {
+              "label": "",
+              "value": "Improved quality of live for senior citizens & their families"
+            }
+          ]
+        },
+        {
+          "title": "GOLDENSHERPA'S RESULTS",
+          "subtitle": "",
+          "points": [
+            {
+              "label": "",
+              "value": "Robust & scalable SaaS MVP for demonstration and usage"
+            },
+            {
+              "label": "",
+              "value": "Secured funding after building the platform within 4 months"
+            },
+            {
+              "label": "",
+              "value": "9 communities featured in 3 months of platform launch"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "title": "flipNook",
@@ -60,6 +617,103 @@
     "cardBackgroundColor": "#FFC75A",
     "tileBackgroundColor": "#84d47d",
     "slug": "flipNook",
-    "description": "Reckonsys collaborated with the client to develop a web-based SaaS solution that enabled elderly citizens and their families to search for communities online and schedule visits matching their needs"
+    "description": "Reckonsys collaborated with the client to develop a web-based SaaS solution that enabled elderly citizens and their families to search for communities online and schedule visits matching their needs",
+    "details": {
+      "shortnote": "Elderly people and their families find it very challenging to select a care provider that best suits their needs due to lack of information. Our client wanted to address this information gap and help eldercare communities and their consumers with stress-free search & selection through a common platform.",
+      "description": "Reckonsys collaborated with the client to develop a web-based SaaS solution that enabled elderly citizens and their families to search for communities online and schedule visits matching their needs",
+      "content": [
+        {
+          "title": "ABOUT THE CLIENT",
+          "subtitle": "A startup focused on connecting eldercare providers, communities, senior citizens and their families for easy and transparent interaction",
+          "points": []
+        },
+        {
+          "title": "NEEDS",
+          "subtitle": "",
+          "points": [
+            {
+              "label": "",
+              "value": "Build a solution to connect communities with senior citizens"
+            },
+            {
+              "label": "",
+              "value": "A technology partner with expertise to build an MVP to showcase the idea"
+            }
+          ]
+        },
+        {
+          "title": "RECKONSYS SERVICES LEVERAGED",
+          "subtitle": "",
+          "points": [
+            {
+              "label": "",
+              "value": "Idea to solution design, <br> Technology selection, <br> UI/UX design, <br> Design & build MVP"
+            }
+          ]
+        },
+        {
+          "title": "KEY SOLUTIONS",
+          "subtitle": "",
+          "points": [
+            {
+              "label": "",
+              "value": "Web-based marketplace for care-giving communities and consumers"
+            },
+            {
+              "label": "",
+              "value": "Multiple search paramenters to find and select suitable caregivers"
+            },
+            {
+              "label": "",
+              "value": "Persona-based evaluation of senior citizens"
+            },
+            {
+              "label": "",
+              "value": "Intelligent scheduling and alert mechanisms"
+            },
+            {
+              "label": "",
+              "value": "Secure online meeting and video chat"
+            }
+          ]
+        },
+        {
+          "title": "BENEFITS TO CONSUMERS AND COMMUNITIES",
+          "subtitle": "",
+          "points": [
+            {
+              "label": "",
+              "value": "Increased visibility of eldercare providers and senior living communities"
+            },
+            {
+              "label": "",
+              "value": "Stress free connect between senior citizens and communities"
+            },
+            {
+              "label": "",
+              "value": "Improved quality of live for senior citizens & their families"
+            }
+          ]
+        },
+        {
+          "title": "GOLDENSHERPA'S RESULTS",
+          "subtitle": "",
+          "points": [
+            {
+              "label": "",
+              "value": "Robust & scalable SaaS MVP for demonstration and usage"
+            },
+            {
+              "label": "",
+              "value": "Secured funding after building the platform within 4 months"
+            },
+            {
+              "label": "",
+              "value": "9 communities featured in 3 months of platform launch"
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
