@@ -351,14 +351,14 @@ export default () => {
             <img src={itpeople} alt="" className="clients" />
             <img src={kredily} alt="" className="clients" />
             <img src={movieplus} alt="" className="clients" />
-            <img src={textnook} alt="" className="clients" />
+            {/* <img src={textnook} alt="" className="clients" />
             <img src={D8adriven} alt="" className="clients" />
             <img src={EnquiryBot} alt="" className="clients" />
             <img src={Everyulb} alt="" className="clients" />
             <img src={flipnook} alt="" className="clients" />
             <img src={pathfinder} alt="" className="clients" />
             <img src={goldenSherpaLogo} alt="" className="clients" />
-            <img src={IXLabs} alt="" className="clients" />
+            <img src={IXLabs} alt="" className="clients" /> */}
           </div>
           {/* <div className="client-list-wrap d-flex-v-center">
             {projects.map((project, idx) => {

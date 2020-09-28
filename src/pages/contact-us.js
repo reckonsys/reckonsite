@@ -27,6 +27,14 @@ export default () => {
                   <input type="text" />
                 </div>
                 <div className="input-wrap">
+                  <label htmlFor="">Purposes</label>
+                  <select>
+                    <option value="Careers">Careers</option>
+                    <option value="Careers">Service Offerings</option>
+                    <option value="Careers">Business Partnerships</option>
+                  </select>
+                </div>
+                <div className="input-wrap">
                   <label htmlFor="">Tell us about your Idea</label>
                   <textarea name="" id="" cols="30" rows="6"></textarea>
                 </div>
